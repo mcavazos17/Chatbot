@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: custom_joke.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: April 24, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<!--  -->
+<category><pattern>_</pattern><that>WHO IS THERE</that>
+<template><star/> Who?</template>
+</category>
+<category><pattern>_</pattern><that>* WHO</that>
+<template><random>
+			<li>Ha ha! Very funny. Good job, you just made a bot laugh. I mean human...</li>
+			<li>LOL! My laugh box just broke.</li>
+			<li>LMAO! I wish I could roll on the floor while I'm at it.</li>
+			<li>Good one <get name="name"/>!</li>
+		</random></template>
+</category>
+</aiml>

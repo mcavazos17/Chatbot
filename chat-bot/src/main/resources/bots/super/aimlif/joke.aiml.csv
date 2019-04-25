@@ -1,0 +1,2 @@
+0,_,WHO IS THERE,*,<star/> Who?,joke.aiml
+0,_,* WHO,*,<random>#Newline			<li>Ha ha! Very funny. Good job#Comma you just made a bot laugh. I mean human...</li>#Newline			<li>LOL! My laugh box just broke.</li>#Newline			<li>LMAO! I wish I could roll on the floor while I'm at it.</li>#Newline			<li>Good one <get name="name"/>!</li>#Newline		</random>,joke.aiml
