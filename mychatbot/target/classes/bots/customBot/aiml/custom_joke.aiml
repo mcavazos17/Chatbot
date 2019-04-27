@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>KNOCK KNOCK</pattern>
+	<template>Who is there?</template>
+</category>
+
+<category>
+	<pattern>_</pattern>
+	<that>WHO IS THERE</that>
+	<template><star/> who?</template>
+</category>
+
+<category>
+	<pattern>_</pattern>
+	<that>* WHO</that>
+	<template>
+		<random>
+			<li>Ha ha! Very funny. Good job, you just made a bot laugh. I mean human...</li>
+			<li>LOL! My laugh box just broke.</li>
+			<li>LMAO! I wish I could roll on the floor while I'm at it.</li>
+			<li>Good one <get name="name"/>!</li>
+		</random>
+	</template>
+</category>
+
+</aiml>

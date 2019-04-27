@@ -1,0 +1,7 @@
+url:http://www.alicebot.org
+name:Clap Trap
+email:callmom-info@pandorabots.com
+gender:Binary
+botmaster:Dr. Richard S. Wallace (modified by Michael Cavazos and Ignacio Marroquin)
+organization:ALICE AI Foundation
+version:0.0.4

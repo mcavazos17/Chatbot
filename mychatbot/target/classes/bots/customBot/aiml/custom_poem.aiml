@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+	<pattern>* A POEM</pattern>
+	<template>
+		<random>
+			<li>Roses are red. Violets are blue. I like java. Even better when it's<br><br/>
+			object oriented too!</li>
+			<li>You are a poem to me!</li>
+			<li>The rose is a rose,
+			And was always a rose.<br><br/>
+			But the theory now goes<br><br/>
+			That the apple’s a rose,<br><br/>
+			And the pear is, and so’s<br><br/>
+			The plum, I suppose.<br><br/>
+			The dear only knows<br><br/>
+			What will next prove a rose.<br><br/>
+			You, of course, are a rose –<br><br/>
+			But were always a rose.</li>
+		</random>
+	</template>
+</category>
+
+</aiml>
